@@ -45,5 +45,7 @@
     <color name="red">#ff0000</color>
     <color name="select_title">#808080</color>
     <color name="card_org">#eb6100</color>
-
+    <color name="item_line">#d9d9d9</color>
+    <drawable name="touming">#00000000</drawable>
+    <color name="press_more">#d5d1d1</color>
 </resources>

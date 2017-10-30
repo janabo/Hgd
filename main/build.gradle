@@ -35,4 +35,6 @@ dependencies {
     compile project(':ykt')
     compile project(':cjcx')
     compile project(':hy')
+    compile project(':ydlx')
+    compile project(':ydyx')
 }
