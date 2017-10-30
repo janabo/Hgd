@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../core/core.iml" filepath="$PROJECT_DIR$/../core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lgj.iml" filepath="$PROJECT_DIR$/../lgj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lsgl/lsgl.iml" filepath="$PROJECT_DIR$/../lsgl/lsgl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../main/main.iml" filepath="$PROJECT_DIR$/../main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../newoa/newoa.iml" filepath="$PROJECT_DIR$/../newoa/newoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oldoa/oldoa.iml" filepath="$PROJECT_DIR$/../oldoa/oldoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../schedule/schedule.iml" filepath="$PROJECT_DIR$/../schedule/schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txl.iml" filepath="$PROJECT_DIR$/txl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xg/xg.iml" filepath="$PROJECT_DIR$/../xg/xg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xxxw/xxxw.iml" filepath="$PROJECT_DIR$/../xxxw/xxxw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xyfg/xyfg.iml" filepath="$PROJECT_DIR$/../xyfg/xyfg.iml" />
+    </modules>
+  </component>
+</project>

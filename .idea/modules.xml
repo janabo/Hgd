@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hgd.iml" filepath="$PROJECT_DIR$/Hgd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cjcx/cjcx.iml" filepath="$PROJECT_DIR$/cjcx/cjcx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzcx/gzcx.iml" filepath="$PROJECT_DIR$/gzcx/gzcx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hy/hy.iml" filepath="$PROJECT_DIR$/hy/hy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kcb/kcb.iml" filepath="$PROJECT_DIR$/kcb/kcb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tsg/tsg.iml" filepath="$PROJECT_DIR$/tsg/tsg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txl/txl.iml" filepath="$PROJECT_DIR$/txl/txl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tzgg/tzgg.iml" filepath="$PROJECT_DIR$/tzgg/tzgg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxxw/xxxw.iml" filepath="$PROJECT_DIR$/xxxw/xxxw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xyfg/xyfg.iml" filepath="$PROJECT_DIR$/xyfg/xyfg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xygk/xygk.iml" filepath="$PROJECT_DIR$/xygk/xygk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ykt/ykt.iml" filepath="$PROJECT_DIR$/ykt/ykt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdyoa/zdyoa.iml" filepath="$PROJECT_DIR$/zdyoa/zdyoa.iml" />
+    </modules>
+  </component>
+</project>

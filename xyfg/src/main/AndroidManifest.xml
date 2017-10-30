@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dk.mp.xyfg">
+
+    <application android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".XyfgActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="xyfg" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SceneryListActivity2"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".SceneryDetailsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
