@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\e74c769b74ae083c142b7b86c282cd9d00ee29e0\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\6d014b32a6c4eb75f172e8c72fed10c4cc33a517\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\ripple_bg_while.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\ripple_bg_while.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\6d014b32a6c4eb75f172e8c72fed10c4cc33a517\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\ripple_bg_red.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\ripple_bg_red.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\e74c769b74ae083c142b7b86c282cd9d00ee29e0\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\ripple_bg_f8.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\ripple_bg_f8.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\6d014b32a6c4eb75f172e8c72fed10c4cc33a517\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\e74c769b74ae083c142b7b86c282cd9d00ee29e0\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\rounded_corners_hy.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\rounded_corners_hy.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\6d014b32a6c4eb75f172e8c72fed10c4cc33a517\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\ripple_bg.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\ripple_bg.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\ripple_bg_hy.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\drawable-v21\\ripple_bg_hy.xml"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\e74c769b74ae083c142b7b86c282cd9d00ee29e0\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    }
+]
