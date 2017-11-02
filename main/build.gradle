@@ -34,7 +34,9 @@ dependencies {
     compile project(':tzgg')
     compile project(':ykt')
     compile project(':cjcx')
-    compile project(':hy')
-    compile project(':ydlx')
+    compile project(':lixiao')
     compile project(':ydyx')
+    compile project(':hy')
+    compile project(':jcxx')
+    compile project(':rcap')
 }

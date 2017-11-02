@@ -48,6 +48,10 @@
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\nodata_n.png"
     },
     {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap\\toast.9.png",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\toast.9.png"
+    },
+    {
         "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap\\net_fail.png",
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\net_fail.png"
     },
@@ -142,5 +146,9 @@
     {
         "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap\\app_txl.png",
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\app_txl.png"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap\\app_lixiao.png",
+        "source": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\bundles\\debug\\res\\mipmap\\app_lixiao.png"
     }
 ]

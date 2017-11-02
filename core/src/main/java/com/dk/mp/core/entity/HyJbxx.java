@@ -11,8 +11,8 @@ public class HyJbxx extends RealmObject {
     private String prikey;//主键
     private String id;//id
     private String name;//姓名
-    private String departmentid;//部门id
-    private String departmentname;//部门名称
+    private String deptId;//部门id
+    private String deptName;//部门名称
     private String phones;
 
     public String getPrikey() {
@@ -37,20 +37,20 @@ public class HyJbxx extends RealmObject {
         this.name = name;
     }
 
-    public String getDepartmentid() {
-        return departmentid;
+    public String getDeptId() {
+        return deptId;
     }
 
-    public void setDepartmentid(String departmentid) {
-        this.departmentid = departmentid;
+    public void setDeptId(String deptId) {
+        this.deptId = deptId;
     }
 
-    public String getDepartmentname() {
-        return departmentname;
+    public String getDeptName() {
+        return deptName;
     }
 
-    public void setDepartmentname(String departmentname) {
-        this.departmentname = departmentname;
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
     }
 
     public String getPhones() {

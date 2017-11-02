@@ -34,8 +34,8 @@ public class Manager {
                 p.setId(pid);
                 p.setName(object2.getString("xm"));
                 p.setPrikey("bm"+bmid+"p"+pid);
-                p.setDepartmentid(bmid);
-                p.setDepartmentname(bmname);
+                p.setDeptName(bmid);
+                p.setDeptId(bmname);
                 String hm="";
                 JSONArray values = object2.getJSONArray("values");
                 for (int index = 0; index < values.length(); index++) {
@@ -63,7 +63,7 @@ public class Manager {
                 String pid = object2.optString("id");
                 p.setId(pid);
                 p.setName(object2.getString("xm"));
-                p.setDepartmentname("测试测试测试");
+                p.setDeptName("测试测试测试");
                 String hm="";
                 JSONArray values = object2.getJSONArray("values");
                 for (int index = 0; index < values.length(); index++) {

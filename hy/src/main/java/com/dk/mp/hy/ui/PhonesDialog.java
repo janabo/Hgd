@@ -85,8 +85,8 @@ public class PhonesDialog{
                     mXb.setBackgroundResource(R.mipmap.icon_sc);
                     HyXbPersons persons = new HyXbPersons();
                     persons.setId(jbxx.getId());
-                    persons.setDepartmentname(jbxx.getDepartmentname());
-                    persons.setDepartmentid(jbxx.getDepartmentid());
+                    persons.setDepartmentname(jbxx.getDeptName());
+                    persons.setDepartmentid(jbxx.getDeptId());
                     persons.setName(jbxx.getName());
                     persons.setPrikey(jbxx.getPrikey());
                     persons.setPhones(jbxx.getPhones());
@@ -123,7 +123,7 @@ public class PhonesDialog{
     public void show(HyJbxx j) {
         jbxx = j;
         name.setText(j.getName());
-        department.setText(j.getDepartmentname());
+        department.setText(j.getDeptName());
         mRecyclerView.setHasFixedSize ( true );
         mRecyclerView.setLayoutManager ( new LinearLayoutManager( mContext ) );
         if(realmHelper.queryPersonsByKey(jbxx.getPrikey()) !=null)

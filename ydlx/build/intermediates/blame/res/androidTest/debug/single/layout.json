@@ -16,6 +16,10 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\dc157e49f943965988f7507f7387fff95ca04a97\\output\\res\\layout\\leak_canary_display_leak.xml"
     },
     {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\core_toast.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\layout\\core_toast.xml"
+    },
+    {
         "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\core_listview_footview.xml",
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\layout\\core_listview_footview.xml"
     },

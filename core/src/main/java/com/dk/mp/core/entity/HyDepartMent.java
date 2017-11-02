@@ -8,23 +8,22 @@ import io.realm.annotations.PrimaryKey;
  */
 public class HyDepartMent extends RealmObject {
     @PrimaryKey
-    private String id;//id
-    private String name;//部门,姓名
+    private String idDepart;//id
+    private String nameDepart;//部门,姓名
 
-
-    public String getId() {
-        return id;
+    public String getIdDepart() {
+        return idDepart;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdDepart(String idDepart) {
+        this.idDepart = idDepart;
     }
 
-    public String getName() {
-        return name;
+    public String getNameDepart() {
+        return nameDepart;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameDepart(String nameDepart) {
+        this.nameDepart = nameDepart;
     }
 }

@@ -6,6 +6,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.multidex.MultiDexApplication;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.LinearInterpolator;
@@ -26,7 +27,7 @@ import io.realm.RealmConfiguration;
 /**
  * 作者：janabo on 2016/12/14 14:53
  */
-public class MyApplication extends Application{
+public class MyApplication extends MultiDexApplication {
     public static App app = new App("","","","显示应用","-1","","icon_addapp","addapps");
 
     private static Application mApplication;

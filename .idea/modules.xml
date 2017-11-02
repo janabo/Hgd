@@ -8,8 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/gzcx/gzcx.iml" filepath="$PROJECT_DIR$/gzcx/gzcx.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy/hy.iml" filepath="$PROJECT_DIR$/hy/hy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcxx/jcxx.iml" filepath="$PROJECT_DIR$/jcxx/jcxx.iml" />
       <module fileurl="file://$PROJECT_DIR$/kcb/kcb.iml" filepath="$PROJECT_DIR$/kcb/kcb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao/lixiao.iml" filepath="$PROJECT_DIR$/lixiao/lixiao.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rcap/rcap.iml" filepath="$PROJECT_DIR$/rcap/rcap.iml" />
       <module fileurl="file://$PROJECT_DIR$/tsg/tsg.iml" filepath="$PROJECT_DIR$/tsg/tsg.iml" />
       <module fileurl="file://$PROJECT_DIR$/txl/txl.iml" filepath="$PROJECT_DIR$/txl/txl.iml" />
       <module fileurl="file://$PROJECT_DIR$/tzgg/tzgg.iml" filepath="$PROJECT_DIR$/tzgg/tzgg.iml" />

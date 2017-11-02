@@ -32,6 +32,14 @@
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\app_lssgl.png"
     },
     {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\debug\\mipmap\\app_lixiao.png",
+        "source": "D:\\MyCode\\Hgd\\ydlx\\src\\main\\res\\mipmap\\app_lixiao.png"
+    },
+    {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\debug\\mipmap\\toast.9.png",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\toast.9.png"
+    },
+    {
         "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\debug\\mipmap\\data_fail.png",
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\mipmap\\data_fail.png"
     },

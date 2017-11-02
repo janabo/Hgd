@@ -42,7 +42,7 @@ public class TxlSearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         if ( holder instanceof TxlSearchAdapter.MyViewHolder) {
             HyJbxx j = (HyJbxx) mData.get(position);
             ((TxlSearchAdapter.MyViewHolder) holder).name.setText(j.getName());
-            ((TxlSearchAdapter.MyViewHolder) holder).department.setText(j.getDepartmentname());
+            ((TxlSearchAdapter.MyViewHolder) holder).department.setText(j.getDeptName());
         }
     }
 

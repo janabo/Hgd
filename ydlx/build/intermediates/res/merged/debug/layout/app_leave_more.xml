@@ -34,7 +34,7 @@
         android:id="@+id/listmore"
         layout="@layout/core_listview_nodevider" />-->
 
-    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ListView
         android:id="@+id/listmore"
         android:background="@color/bg"
         android:layout_width="fill_parent"

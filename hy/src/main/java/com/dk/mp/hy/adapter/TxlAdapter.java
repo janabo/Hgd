@@ -51,7 +51,7 @@ public class TxlAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
                 ((MyViewHolder) holder).name.setText(j.getName());
             }else{
                 HyDepartMent j = (HyDepartMent) mData.get(position);
-                ((MyViewHolder) holder).name.setText(j.getName());
+                ((MyViewHolder) holder).name.setText(j.getNameDepart());
             }
         }
     }
@@ -73,8 +73,8 @@ public class TxlAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
                     if(type == 2){
                         Intent intent = new Intent(mContext, TxlPersonsActivity.class);
                         HyDepartMent j = (HyDepartMent) mData.get(getLayoutPosition());
-                        intent.putExtra("id",j.getId());
-                        intent.putExtra("title",j.getName());
+                        intent.putExtra("id",j.getIdDepart());
+                        intent.putExtra("title",j.getNameDepart());
                         mContext.startActivity(intent);
                     }else{
                         final PhonesDialog dlg = new PhonesDialog(mContext,activity);

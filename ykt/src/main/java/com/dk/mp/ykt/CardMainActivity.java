@@ -30,7 +30,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.dk.mp.core.util.TimeUtils.getBeforeMonth;
-import static com.umeng.analytics.pro.x.R;
 
 /**
  * 一卡通

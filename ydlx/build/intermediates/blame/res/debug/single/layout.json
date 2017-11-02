@@ -296,6 +296,10 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\73819f0b1e6a83fb2d31afdfd6730e8145668517\\output\\res\\layout\\pickerview_time.xml"
     },
     {
+        "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\debug\\layout\\core_toast.xml",
+        "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\layout\\core_toast.xml"
+    },
+    {
         "merged": "D:\\MyCode\\Hgd\\ydlx\\build\\intermediates\\res\\merged\\debug\\layout\\core.xml",
         "source": "D:\\MyCode\\Hgd\\core\\build\\intermediates\\bundles\\default\\res\\layout\\core.xml"
     },

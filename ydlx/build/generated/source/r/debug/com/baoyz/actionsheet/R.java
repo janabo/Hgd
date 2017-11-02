@@ -514,10 +514,10 @@ public final class R {
         public static int abc_search_dropdown_item_icons_2line = 0x7f040018;
         public static int abc_search_view = 0x7f040019;
         public static int abc_select_dialog_material = 0x7f04001a;
-        public static int select_dialog_item_material = 0x7f040055;
-        public static int select_dialog_multichoice_material = 0x7f040056;
-        public static int select_dialog_singlechoice_material = 0x7f040057;
-        public static int support_simple_spinner_dropdown_item = 0x7f040058;
+        public static int select_dialog_item_material = 0x7f040056;
+        public static int select_dialog_multichoice_material = 0x7f040057;
+        public static int select_dialog_singlechoice_material = 0x7f040058;
+        public static int support_simple_spinner_dropdown_item = 0x7f040059;
     }
     public static final class mipmap {
         public static int actionsheet_bg_ios6 = 0x7f030000;

@@ -1,9 +1,5 @@
 package com.dk.mp.ydyx.activity;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
@@ -12,13 +8,14 @@ import com.dk.mp.core.http.HttpUtil;
 import com.dk.mp.core.http.request.HttpListener;
 import com.dk.mp.core.ui.MyActivity;
 import com.dk.mp.core.util.DeviceUtil;
-import com.dk.mp.core.util.ImageUtil;
-import com.dk.mp.core.util.StringUtils;
-import com.dk.mp.core.view.edittext.DetailView;
+import com.dk.mp.core.widget.OADetailView;
 import com.dk.mp.ydyx.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 迎新须知.
@@ -27,7 +24,7 @@ import org.json.JSONObject;
  * @author rm.zhao
  */
 public class RemarkActivity extends MyActivity {
-    private DetailView remark;
+    private OADetailView remark;
     private String content;
     private String id;
     private TextView titles;
@@ -49,7 +46,7 @@ public class RemarkActivity extends MyActivity {
 		getData();
 	}
 	private void findView() {
-		remark=(DetailView) findViewById(R.id.remark);
+		remark=(OADetailView) findViewById(R.id.remark);
 	}
 	public void getData(){
 		if (DeviceUtil.checkNet()) {
@@ -71,7 +68,7 @@ public class RemarkActivity extends MyActivity {
 
 				@Override
 				public void onError(VolleyError error) {
-					showMessage(getString(R.string.data_fail));
+					showErrorMsg(getString(R.string.data_fail));
 				}
 			});
 		}

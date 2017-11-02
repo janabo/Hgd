@@ -8,7 +8,7 @@
             android:name="com.dk.mp.ydyx.activity.WelDoActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
-                <action android:name="welstu" />
+                <action android:name="yingxin" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

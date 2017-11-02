@@ -12,14 +12,10 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Shader;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.dk.mp.core.application.MyApplication;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
-import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
-import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
@@ -31,11 +27,10 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
+
+//import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 /**
  * 图片工具类.
@@ -59,7 +54,7 @@ public class ImageUtil {
 	public static final String DOWNLOADPATH = CoreConstants.DOWNLOADPATH;
 	private static Map<String, Bitmap> map = new HashMap<String, Bitmap>();
 	private static DisplayImageOptions options;
-	private static AnimateFirstDisplayListener animateFirstListener = new AnimateFirstDisplayListener();
+//	private static AnimateFirstDisplayListener animateFirstListener = new AnimateFirstDisplayListener();
 
 	static {
 		File f = new File(BASEPICPATH);
@@ -371,37 +366,37 @@ public class ImageUtil {
 
 	public static void setImageView(final Context context, final ImageView imageView, String url,
 									final int moren, final int fail) {
-		if (options == null) {
-			options = new DisplayImageOptions.Builder().showImageOnLoading(moren).showImageForEmptyUri(moren).showImageOnFail(fail).cacheInMemory(true).cacheOnDisk(true).considerExifParams(true).build();
-		}
-		try {
-			ImageLoader.getInstance().displayImage(url, imageView, options, animateFirstListener);
-		} catch (OutOfMemoryError e) {
-			e.printStackTrace();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+//		if (options == null) {
+//			options = new DisplayImageOptions.Builder().showImageOnLoading(moren).showImageForEmptyUri(moren).showImageOnFail(fail).cacheInMemory(true).cacheOnDisk(true).considerExifParams(true).build();
+//		}
+//		try {
+//			ImageLoader.getInstance().displayImage(url, imageView, options, animateFirstListener);
+//		} catch (OutOfMemoryError e) {
+//			e.printStackTrace();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 	}
 
 
-	private static class AnimateFirstDisplayListener extends SimpleImageLoadingListener {
-		static final List<String> displayedImages = Collections.synchronizedList(new LinkedList<String>());
-
-		@Override
-		public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-			if (loadedImage != null) {
-				ImageView imageView = (ImageView) view;
-				boolean firstDisplay = !displayedImages.contains(imageUri);
-				if (firstDisplay) {
-					FadeInBitmapDisplayer.animate(imageView, 500);
-					displayedImages.add(imageUri);
-				}
-			}
-		}
-	}
+//	private static class AnimateFirstDisplayListener extends SimpleImageLoadingListener {
+//		static final List<String> displayedImages = Collections.synchronizedList(new LinkedList<String>());
+//
+//		@Override
+//		public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
+//			if (loadedImage != null) {
+//				ImageView imageView = (ImageView) view;
+//				boolean firstDisplay = !displayedImages.contains(imageUri);
+//				if (firstDisplay) {
+//					FadeInBitmapDisplayer.animate(imageView, 500);
+//					displayedImages.add(imageUri);
+//				}
+//			}
+//		}
+//	}
 
 	public void clean() {
-		AnimateFirstDisplayListener.displayedImages.clear();
+//		AnimateFirstDisplayListener.displayedImages.clear();
 	}
 
 

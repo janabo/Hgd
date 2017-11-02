@@ -198,8 +198,8 @@ public class TxlDepartActivity extends MyActivity implements EasyPermissions.Per
             for(HyXbPersons x : xbtss){
                 HyJbxx j = new HyJbxx();
                 j.setId(x.getId());
-                j.setDepartmentname(x.getDepartmentname());
-                j.setDepartmentid(x.getDepartmentid());
+                j.setDeptName(x.getDepartmentname());
+                j.setDeptId(x.getDepartmentid());
                 j.setName(x.getName());
                 j.setPrikey(x.getPrikey());
                 j.setPhones(x.getPhones());
